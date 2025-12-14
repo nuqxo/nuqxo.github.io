@@ -21,24 +21,26 @@
     header {
       background: #111;
       color: #fff;
-      padding: 60px 20px;
+      padding: 70px 20px;
       text-align: center;
     }
 
     header h1 {
-      font-size: 2.3rem;
+      font-size: 2.4rem;
       font-weight: 800;
     }
 
     header p {
-      margin-top: 10px;
+      margin-top: 12px;
       color: #bbb;
+      max-width: 600px;
+      margin-inline: auto;
     }
 
     .btn {
       display: inline-block;
-      margin-top: 25px;
-      padding: 14px 28px;
+      margin-top: 30px;
+      padding: 14px 32px;
       background: #25d366;
       color: #000;
       font-weight: 600;
@@ -47,14 +49,15 @@
     }
 
     section {
-      padding: 50px 20px;
+      padding: 60px 20px;
       max-width: 900px;
       margin: auto;
     }
 
     h2 {
-      font-size: 1.7rem;
-      margin-bottom: 20px;
+      font-size: 1.8rem;
+      margin-bottom: 25px;
+      font-weight: 800;
     }
 
     .features {
@@ -65,16 +68,40 @@
 
     .card {
       background: #fff;
-      padding: 25px;
-      border-radius: 8px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+    }
+
+    .card h3 {
+      margin-bottom: 10px;
+      font-size: 1.1rem;
+    }
+
+    .divider {
+      height: 1px;
+      background: #ddd;
+      margin: 40px 0;
+    }
+
+    .cta {
+      text-align: center;
+      background: #111;
+      color: #fff;
+      padding: 60px 20px;
+      border-radius: 12px;
+    }
+
+    .cta p {
+      color: #ccc;
+      margin-top: 10px;
     }
 
     footer {
       text-align: center;
       padding: 30px;
       font-size: 14px;
-      color: #666;
+      color: #777;
     }
   </style>
 </head>
@@ -82,7 +109,7 @@
 
   <header>
     <h1>Nome do Negócio</h1>
-    <p>Solução rápida, atendimento direto e preço justo</p>
+    <p>Solução rápida, atendimento direto e preço justo para resolver o que você precisa.</p>
     <a class="btn" href="https://wa.me/5554992605900" target="_blank">
       Falar no WhatsApp
     </a>
@@ -93,15 +120,15 @@
     <div class="features">
       <div class="card">
         <h3>Serviço Principal</h3>
-        <p>Descrição curta e objetiva do serviço.</p>
+        <p>Descrição clara e direta do serviço oferecido.</p>
       </div>
       <div class="card">
         <h3>Atendimento Rápido</h3>
-        <p>Resposta ágil e sem enrolação.</p>
+        <p>Contato fácil e resposta sem demora.</p>
       </div>
       <div class="card">
         <h3>Preço Justo</h3>
-        <p>Valor honesto, combinado antes.</p>
+        <p>Valores combinados antes, sem surpresas.</p>
       </div>
     </div>
   </section>
@@ -109,9 +136,27 @@
   <section>
     <h2>Por que escolher a gente</h2>
     <p>
-      Somos um negócio local focado em resolver seu problema
-      com eficiência, clareza e confiança.
+      Somos um negócio local focado em entregar resultado.
+      Atendimento simples, comunicação clara e compromisso
+      com o que foi combinado.
     </p>
+
+    <div class="divider"></div>
+
+    <h2>Horário de atendimento</h2>
+    <p>
+      Segunda a Sexta: 08h – 18h<br>
+      Sábado: 08h – 13h<br>
+      Domingo: Fechado
+    </p>
+  </section>
+
+  <section class="cta">
+    <h2>Precisa resolver hoje?</h2>
+    <p>Chama no WhatsApp e resolvemos sem enrolação.</p>
+    <a class="btn" href="https://wa.me/5554992605900" target="_blank">
+      Entrar em contato
+    </a>
   </section>
 
   <footer>
